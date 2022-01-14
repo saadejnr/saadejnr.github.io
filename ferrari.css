@@ -1,0 +1,99 @@
+.container {
+    background-color:  maroon;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container .boz1 {
+    margin-right: 300px;
+}
+
+.navbar ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: maroon;
+}
+
+.navbar ul li {
+    display: inline;
+    
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(238, 221, 221);
+    background-color: maroon;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.navbar ul li a:hover{
+    color: rgb(24, 23, 23);
+    background-color: rgb(238, 221, 221);
+}
+
+.navbar {
+    padding: 10px 0;
+    background-color: maroon;
+    box-shadow: 5px 5px maroon;
+}                
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic {
+    width: 32%;
+    text-align: center;
+}
+
+.heading {
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.box-foot {
+    background-color: rgba(112, 34, 34, 0.904);
+    color: white;
+    padding-top: 30px;
+}
+
+.foot-list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.foot-list ul {
+    list-style-type: none;
+}
+
+.foot-list {
+    display: inline-block;
+    width: 33%;
+    font-size: large;
+}
+
+.foot-last p {
+    display: inline-block;
+    width: 49%;
+
+}
+
+.foot-text2 {
+    text-align: right;
+}
+
+.foot-last {
+    background-color: rgb(128, 15, 15);
+}

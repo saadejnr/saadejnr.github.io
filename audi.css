@@ -1,0 +1,192 @@
+.container {
+    background-color:  rgb(11, 124, 168);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.boz1 {
+    padding: 0px;
+    font-size: 30px;
+    flex: 1;
+}
+
+.boz2 {
+    padding: 0px;
+    font-size: 30px;
+    flex: 1;
+}
+
+.boz1 > img {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    background-color: rgb(11, 124, 168);
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(238, 221, 221);
+    background-color: rgb(11, 124, 168);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.navbar ul li a:hover{
+    color: rgb(11, 124, 168);
+    background-color: rgb(238, 221, 221);
+}
+
+.navbar {
+    padding: 20px 0;
+    background-color: rgb(11, 124, 168);
+}
+
+
+
+
+.box1, .box2, .box3, .box4, .auditxt1, .txt1 {
+    display: inline-block;    
+}
+
+
+.heading h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.home img {
+    width: 100%;
+
+}
+
+.heading2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: xx-large;
+}
+
+.heading3 {
+    display: block;
+    font-size: 30px;
+}
+
+
+.aud-container {
+    display: flex;
+}
+
+
+.audpic {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.audpic img {
+    width: 500px;
+}
+
+.etrontxt {
+    flex: 2;
+}
+
+.box2 {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.box2 img {
+    width: 500px;
+}
+
+.R8txt {
+    flex: 2;
+}
+
+
+
+.heading4 {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 90px;
+    margin-bottom: 20px;
+}
+
+
+.R8txt {
+    font-size: 20px;
+    width: 50%;
+    vertical-align: top;
+}  
+
+
+.box3 {
+    display: inline-block;
+    width: 49%;
+    font-size: 20px;
+}
+
+
+.box3 img,.box4 img {
+    width: 517px;
+    display: inline-block;
+}
+
+.heading5 {
+    display: block;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.heading5 h {
+    display: inline;
+    width: 49%;
+
+}
+
+.heading5 .heading5txt2 {
+    text-align: right;
+    margin-left: 350px;
+}
+
+.heading5 .heading5txt {
+    margin-left: 150px;
+} 
+
+.box4 {
+    width: 49%;
+    vertical-align: top;
+    font-size: 20px;
+    margin-left:25px;
+}
+
+
+.aud-container2 {
+    display: flex;
+}
+
+
+.aud-container .etrontxt .etrontxt2 {
+    vertical-align: top;
+}
